@@ -1,0 +1,75 @@
+#x={'name':'abcd','age':12,'city':'pune'}
+#print(x)
+
+
+#note.......... duplicate not allowed. 
+#x={'name':'abcd','age':12,'city':'pune','city':'mumbai'}
+#print(x)
+
+
+#x={'name':'abcd','age':12,'city':'pune'}
+#x['age']=10
+#print(x)
+
+#how to add in dictionary
+#x={'name':'abcd','age':12,'city':'pune'}
+#x['age']=10
+#x['address']='karve nagar'
+#print(x)
+
+#how to get only keys,items,values.............
+# ..............keys...........
+#x={'name':'abcd','age':12,'city':'pune'}
+#k=list(x.keys())
+#print(k)
+
+#..........values................
+#x={'name':'abcd','age':12,'city':'pune'}
+#v=list(x.values())
+#print(v)
+
+#............items..............
+#x={'name':'abcd','age':12,'city':'pune'}
+#i=list(x.items())
+#print(i)
+
+
+#..update method..
+#x={'name':'abcd','age':12,'city':'pune'}
+#x.update({'address':'karvenagar'})
+#print(x)
+
+
+#x={'name':'abcd','age':12,'city':'pune'}
+#x['mobile no']=6913269863
+#print(x)
+
+#note-how to replace value from given keys in dict
+#x={'name':'abcd','age':12,'city':'pune'}
+#x['city']='mumbai'
+#print(x)
+
+#note-how to remove element from give dict....
+
+#x={'name':'abcd','age':12,'city':'pune'}
+#x.pop('age')
+#print(x)
+
+#...........or..........
+
+#x={'name':'abcd','age':12,'city':'pune'}
+#x.popitem()
+#print()
+
+#...........or..............
+
+#x={'name':'abcd','age':12,'city':'pune'}
+#del x['age']
+#print(x)
+
+#.........or..........
+
+#x={'name':'abcd','age':12,'city':'pune'}
+#x.clear()
+#print(x)
+
